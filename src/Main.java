@@ -13,6 +13,23 @@ public class Main {
         System.out.println(book3+"\n==============================");
         book2.setAgePublication(2021);
         System.out.println(book2);
+        Author author4=new Author("александр","пушкин",34);
+        Book book4=new Book("текст",234,author4);
+
+        System.out.println("============================");
+
+        if (author4.equals(author1)){
+            System.out.println("у книг  автор "+ book1.getAuthorBook());
+        }
+        else {
+            System.out.println("у книг разные авторы");
+        }
+
+
+
 
     }
+
+
+
 }
